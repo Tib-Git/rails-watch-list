@@ -1,0 +1,10 @@
+<div class="container my-4">
+  <h2 class="mb-4 text-muted text-center">Mes listes</h2>
+  <div class="row g-3 justify-content-center">
+    <% @lists.each do |list| %>
+      <div class="col-md-6 col-lg-4">
+        <%= link_to list.name, list_path(list), class: "list-button d-block text-center" %>
+      </div>
+    <% end %>
+  </div>
+</div>

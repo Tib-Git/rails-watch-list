@@ -1,2 +1,19 @@
 // Import page-specific CSS files here.
 @import "home";
+
+.list-button {
+    background: linear-gradient(135deg, #011c4c, #7bb1f4); /* bleu -> cyan */
+    color: white;
+    font-weight: 500;
+    border: none;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 8px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .list-button:hover {
+    text-decoration: none;
+    transform: scale(1.02);
+    box-shadow: 0 4px 12px rgba(0, 123, 255, 0.3);
+  }
